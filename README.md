@@ -10,9 +10,7 @@ This project is about implementing automated tests using Cypress to test a websi
 
 Cypress is a relatively new automated tests tool which is gaining popularity at a very rapid pace
 
-Here is the home page for Cypress
-
-<https://www.cypress.io/>
+[Here is the home page for Cypress](https://www.cypress.io/)
 
 ## 🎯 Project features/goals
 
