@@ -87,7 +87,7 @@ npm rum test:cmd
 
 Test results can be viewed in the "Actions" tab of your GitHub repository.
 
-## 🎅 Authors
+## 👩🏻 Authors
 
 Ksenija Bal.: [Github](https://github.com/KsenijaCode/)
 
