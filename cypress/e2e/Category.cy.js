@@ -1,7 +1,7 @@
 describe('View Category Products', () => {
   before(() => {
     // Step 1: Launch browser and navigate to URL
-    cy.visit('http://automationexercise.com');
+    cy.visit("");
   });
 
   it('should verify categories and navigate through them', () => {

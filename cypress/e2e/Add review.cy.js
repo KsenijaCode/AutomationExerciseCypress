@@ -1,7 +1,7 @@
 describe('Product Review Test', () => {
   it('should submit a product review successfully', () => {
     // Step 1: Launch browser and navigate to the URL
-    cy.visit('http://automationexercise.com');
+    cy.visit("");
 
     // Step 2: Click on 'Products' button
     cy.contains('Products').click();

@@ -1,7 +1,7 @@
 describe('Verify Test Cases Page', () => {
   before(() => {
     // Step 1: Launch browser and navigate to URL
-    cy.visit('http://automationexercise.com');
+    cy.visit("");
   });
 
   it('should successfully navigate to the Test Cases page', () => {

@@ -1,7 +1,7 @@
 // describe('Add Products in Cart', () => {
 //   before(() => {
 //     // Step 1: Launch browser and navigate to URL
-//     cy.visit('http://automationexercise.com');
+//     cy.visit("");
 //   });
 
 //   it('should successfully add products to the cart and verify details', () => {

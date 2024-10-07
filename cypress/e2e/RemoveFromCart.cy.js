@@ -1,7 +1,7 @@
 describe('Remove Product from Cart', () => {
   before(() => {
     // Step 1: Launch browser and navigate to URL
-    cy.visit('http://automationexercise.com');
+    cy.visit("");
   });
 
   it('should successfully remove a product from the cart', () => {
@@ -25,7 +25,7 @@ describe('Remove Product from Cart', () => {
     cy.get('.active').contains('Shopping Cart').should('be.visible');
 
     // Step 6: Click 'X' button corresponding to a particular product
-    cy.get('.cart_delete').first().click();
+    cy.get('.cart_delete').click();
 
     // Step 7: Verify that product is removed from the cart
     cy.get('.cart_description').should('have.length', 1);

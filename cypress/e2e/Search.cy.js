@@ -1,7 +1,7 @@
 describe('Search Product Test', () => {
 before(() => {
 // Step 1: Launch browser and navigate to the URL
-cy.visit("http://automationexercise.com");
+cy.visit("");
 });
 
 it('should load search results for a product', () => {
