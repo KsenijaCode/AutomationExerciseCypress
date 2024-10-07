@@ -14,12 +14,12 @@ describe('Product Review Test', () => {
     cy.get('.product-image-wrapper').first().find('a').contains('View Product').click();
 
     // Step 5: Verify 'Write Your Review' is visible
-    cy.get('<a href="#reviews" data-toggle="tab">Write Your Review</a>').contains('Write Your Review').should('be.visible');
+    cy.get('.active').contains('Write Your Review').should('be.visible');
 
     // Step 6: Enter name, email, and review
-    cy.get('input[name="name"]').type('John Doe');
-    cy.get('input[name="email"]').type('johndoe@example.com');
-    cy.get('textarea[name="review"]').type('This is a great product!');
+    cy.get('input#name').type('Ksenija');
+    cy.get('input#email').type('ksenija@google.com');
+    cy.get('textarea#review').type('High quality');
 
     // Step 7: Click 'Submit' button
     cy.get('button[type="submit"]').contains('Submit').click();
