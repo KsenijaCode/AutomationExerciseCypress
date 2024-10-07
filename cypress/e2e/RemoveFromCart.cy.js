@@ -10,22 +10,22 @@ describe('Remove Product from Cart', () => {
 
     // Step 3: Add products to cart
     cy.contains('Products').click();
-    
-    // Add the first product to the cart
-    cy.contains('Add to cart').first().click();
 
-    // Add the second product to the cart
-    cy.contains('Add to cart').eq(1).click();
+    const quantityToAdd = 2;    
+    cy.addProductToCart(quantityToAdd);
+
+    // Verify that product is added to the cart
+    cy.get('#cartModal').should('contain', 'Added');
 
     // Step 4: Click 'Cart' button
     cy.contains('Cart').click();
 
     // Step 5: Verify that cart page is displayed
     cy.url().should('include', 'view_cart');
-    cy.get('h1').contains('Shopping Cart').should('be.visible');
+    cy.get('.active').contains('Shopping Cart').should('be.visible');
 
     // Step 6: Click 'X' button corresponding to a particular product
-    cy.get('.cart_quantity_delete').first().click();
+    cy.get('.cart_delete').first().click();
 
     // Step 7: Verify that product is removed from the cart
     cy.get('.cart_description').should('have.length', 1);

@@ -30,3 +30,15 @@ Cypress.Commands.add('navigateToAllProductsPage', () => {
     cy.get("a[href='/products']").click();
     cy.contains('All Products').should('be.visible');
 });
+
+Cypress.Commands.add('navigateToProductDetails', () => {
+    cy.get('a[href="/product_details/1"]').click();
+});
+
+Cypress.Commands.add('addProductToCart', (quantity) => {
+    cy.navigateToProductDetails();
+    cy.get('h2').should('be.visible');
+    cy.get('.product-information').should('be.visible');
+    cy.get('input[name="quantity"]').clear().type(quantity);
+    cy.get('.cart').click();
+});
