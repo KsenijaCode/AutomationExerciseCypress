@@ -81,7 +81,7 @@ npm rum test:cmd
 
 ### View Test Results
 
-Test results can be viewed in the "Actions" tab of your GitHub repository.
+Test results can be viewed in the "Actions" tab of GitHub repository.
 
 ## 👩🏻 Authors
 
