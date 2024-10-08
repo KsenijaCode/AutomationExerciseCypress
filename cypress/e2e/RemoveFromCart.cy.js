@@ -18,7 +18,7 @@ describe('Remove Product from Cart', () => {
     cy.get('#cartModal').should('contain', 'Added');
 
     // Step 4: Click 'Cart' button
-    cy.contains('Cart').click();
+    cy.contains('Cart').click({force: true});
 
     // Step 5: Verify that cart page is displayed
     cy.url().should('include', 'view_cart');
