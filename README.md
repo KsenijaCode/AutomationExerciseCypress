@@ -18,18 +18,17 @@ Cypress is a relatively new automated tests tool which is gaining popularity at 
 - Cypress practice
 - Tests run with Terminal
 
-## 🕳️ E2E Tests Repository
+## 👌 E2E Tests Repository
 
 This repository contains a sample for e2e tests for [Automation Exercise page](https://www.automationexercise.com/)
 
 ### ✨ Test Cases chosen:
 
 1. Test Case 7: Verify Test Cases Page
-2. Test Case 9: Search Product
-3. Test Case 13: Verify Product quantity in Cart
-4. Test Case 17: Remove Products From Cart
-5. Test Case 18: View Category Products
-6. Test Case 21: Add review on product
+2. Test Case 13: Verify Product quantity in Cart
+3. Test Case 17: Remove Products From Cart
+4. Test Case 18: View Category Products
+5. Test Case 21: Add review on product
 
 ## 🧰 Getting Started
 

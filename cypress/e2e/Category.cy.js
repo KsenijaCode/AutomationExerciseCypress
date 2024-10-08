@@ -20,11 +20,11 @@ describe('View Category Products', () => {
     cy.get('.title.text-center').should('contain', 'Women - Dress Products');
 
     // Step 6: On left side bar, click on any sub-category link of 'Men' category
-    cy.get('.left-sidebar').contains('Men').click(); // Ensure 'Men' category is present in the sidebar
+    cy.get('.left-sidebar').contains('Men').click();
     cy.contains('Tshirts').click();
 
     // Step 7: Verify that user is navigated to that category page
-    cy.url().should('include', '/category_products'); // Adjust based on actual URL structure
+    cy.url().should('include', '/category_products');
     cy.get('.title').should('contain', 'Men - Tshirts Products');
   });
 });

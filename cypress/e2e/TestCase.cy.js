@@ -6,7 +6,7 @@ describe('Verify Test Cases Page', () => {
 
   it('should successfully navigate to the Test Cases page', () => {
     // Step 2: Verify that home page is visible successfully
-    cy.get('h2').should('be.visible'); // Adjust the selector if necessary
+    cy.get('h2').should('be.visible');
 
     // Step 3: Click on 'Test Cases' button
     cy.contains('Test Cases').click();
