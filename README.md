@@ -26,11 +26,10 @@ This repository contains a sample for e2e tests for [Automation Exercise page](h
 
 1. Test Case 7: Verify Test Cases Page
 2. Test Case 9: Search Product
-3. Test Case 12: Add Products in Cart
-4. Test Case 13: Verify Product quantity in Cart
-5. Test Case 17: Remove Products From Cart
-6. Test Case 18: View Category Products
-7. Test Case 21: Add review on product
+3. Test Case 13: Verify Product quantity in Cart
+4. Test Case 17: Remove Products From Cart
+5. Test Case 18: View Category Products
+6. Test Case 21: Add review on product
 
 ## 🧰 Getting Started
 
